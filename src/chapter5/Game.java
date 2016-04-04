@@ -4,7 +4,7 @@ public class Game {
 
 	public static void main(String[] args) {
 
-		SimpleDotCom dot = new SimpleDotCom();
+		DotCom dot = new DotCom();
 		HelperGame helper = new HelperGame();
 
 		int numOfGuesses = 0;
@@ -13,7 +13,7 @@ public class Game {
 
 		int[] array = { rnd, rnd + 1, rnd + 2 };
 
-		dot.setLocationCells(array);
+		//dot.setLocationCells(array);
 
 		boolean isAlive = true;
 
